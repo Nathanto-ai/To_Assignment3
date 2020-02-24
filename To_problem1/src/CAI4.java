@@ -25,24 +25,6 @@ public class CAI4 {
 			
 //				for loop to limit questions to 10
 				for (i = 0; i < 10; i++) {										
-			
-////					if statement to select which level random number generator is called
-//					if (difficulty == 1) {
-//						rand1 = randGen1();
-//						rand2 = randGen1();		
-//					}
-//					else if (difficulty == 2) {
-//						rand1 = randGen2();
-//						rand2 = randGen2();		
-//					}
-//					else if (difficulty == 3) {
-//						rand1 = randGen3();
-//						rand2 = randGen3();		
-//					}
-//					else if (difficulty == 4) {
-//						rand1 = randGen4();
-//						rand2 = randGen4();		
-//					}
 					
 					rand1 = generateQuestionArgument(difficulty);
 					rand2 = generateQuestionArgument(difficulty);
@@ -128,8 +110,7 @@ public class CAI4 {
 			
 			return rand;
 				
-		}
-		
+		}		
 		
 		
 //		random number generator level 1
